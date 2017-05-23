@@ -1,0 +1,16 @@
+<div>
+    {{#each this}}
+        <h5>Day:</h5>
+        <p>{{date.weekday}}</p>
+
+        <h4>Conditions:</h4>
+        <p>{{conditions}}</p>
+
+        <h4>Temperature:</h4>
+        <p>High: {{high.fahrenheit}} Low: {{low.fahrenheit}}</p>
+
+        <h4>Wind Speed : </h4>
+        <p>{{maxwind.mph}}</p>
+
+    {{/each}}
+</div>
